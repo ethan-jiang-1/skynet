@@ -1,0 +1,3 @@
+#!/bin/bash
+export LUA_CPATH='/home/ethan/skynet/luaclib/?.so;/home/ethan/.luarocks/lib/lua/5.3/?.so;/usr/local/lib/lua/5.3/?.so;/home/ethan/pluto_boris/dev/runtime/linux/?.so;/home/ethan/pluto_boris/app/dev/runtime/linux/?.so;/home/ethan/pluto_boris/app/runtime/linux/?.so;/usr/local/lib/lua/5.3/loadall.so;./?.so'
+export LUA_PATH='/home/ethan/skynet/lualib/?.lua;/home/ethan/.luarocks/share/lua/5.3/?.lua;/home/ethan/.luarocks/share/lua/5.3/?/init.lua;/usr/local/share/lua/5.3/?.lua;/usr/local/share/lua/5.3/?/init.lua;/home/ethan/pluto_boris/dev/?.lua;/home/ethan/pluto_boris/app/?.lua;/usr/local/lib/lua/5.3/?.lua;/usr/local/lib/lua/5.3/?/init.lua;./?.lua;./?/init.lua'

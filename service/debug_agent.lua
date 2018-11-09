@@ -29,6 +29,8 @@ function CMD.ping()
 end
 
 skynet.start(function()
+	local inspect = require("inspect").inspect
+	print(inspect(skynet))
 	skynet.dispatch("lua", function(_,_,cmd,...)
 		local f = CMD[cmd]
 		f(...)
